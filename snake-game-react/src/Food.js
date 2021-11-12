@@ -1,5 +1,4 @@
 import React from "react";
-import { findDOMNode } from "react-dom";
 
 export default (props) => {
 
@@ -9,6 +8,6 @@ export default (props) => {
     }
 
     return (
-        <dic className="snake-food" style={style}></dic>
+        <div className="snake-food" style={style}></div>
     )
 }
